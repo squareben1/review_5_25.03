@@ -3,6 +3,7 @@ class Stringcalc
     
     number1 = str.split(" ")[0].to_i
     character = str.split(" ")[1]
+    # sym = str.split(" ")[1].insert(0, '\\')
     number2 = str.split(" ")[2].to_i
 
     if character == "+"
@@ -16,7 +17,5 @@ class Stringcalc
     end 
     
     [str, result]
-
-    # [str, number1.to_i character number2.to_i]
   end
 end 
