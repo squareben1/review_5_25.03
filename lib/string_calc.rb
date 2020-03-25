@@ -1,5 +1,5 @@
 class Stringcalc
-  def stringify(str)
-    str.to_i
+  def intify(str)
+    [str, str.to_i]
   end
 end 
