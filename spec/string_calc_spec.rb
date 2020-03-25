@@ -21,5 +21,9 @@ describe Stringcalc do
     it 'returns array of 1 * 1 and result - 1' do 
       expect(subject.intify("1 * 1")).to eq ["1 * 1", 1]
     end 
+
+    it 'returns array of 1 / 1 and result - 1' do 
+      expect(subject.intify("1 / 1")).to eq ["1 / 1", 1]
+    end 
   end 
 end 

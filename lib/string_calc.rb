@@ -9,6 +9,8 @@ class Stringcalc
       result = number1 + number2
     elsif character == "*"
       result = number1 * number2
+    elsif character == "/"
+      result = number1 / number2
     else 
       result = number1 - number2
     end 
