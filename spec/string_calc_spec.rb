@@ -9,11 +9,13 @@ describe Stringcalc do
     it 'returns array of 1 + 1 and result - 2' do
       expect(subject.intify("1 + 1")).to eq ["1 + 1", 2]
     end 
-  end 
 
-  # describe 'summify' do 
-  #   it 'returns array of 1 + 1 and result - 2' do
-  #     expect(subject.summify)
-  #   end 
-  # end 
+    it 'returns array of 1 + 2 and result - 3' do
+      expect(subject.intify("1 + 2")).to eq ["1 + 2", 3]
+    end 
+
+    it 'returns array of 1 - 1 and result - 0' do
+      expect(subject.intify("1 - 1")).to eq ["1 - 1", 0]
+    end 
+  end 
 end 
